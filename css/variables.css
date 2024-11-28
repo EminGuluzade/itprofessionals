@@ -1,0 +1,9 @@
+:root {
+    --primary-color: #5D45FD;
+    --background-color: #161616;
+    --text-color: #fff;
+    --circle-size-1: 20vw;
+    --circle-size-2: 15vw;
+    --circle-size-3: 50vw;
+    --font-inter: "Inter", sans-serif;
+}

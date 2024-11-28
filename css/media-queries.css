@@ -1,0 +1,20 @@
+/* Base stil (Mobil cihazlar üçün) */
+body {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+@media (min-width: 576px) {}
+
+/* 768px-dən yuxarı (Tablet cihazlar üçün optimallaşdırma) */
+@media (min-width: 768px) {}
+
+/* 992px-dən yuxarı (Laptop və kiçik desktop cihazları üçün optimallaşdırma) */
+@media (min-width: 992px) {}
+
+/* 1200px-dən yuxarı (Böyük ekranlı cihazlar və desktop üçün optimallaşdırma) */
+@media (min-width: 1200px) {}
+
+
