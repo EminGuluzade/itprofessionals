@@ -1,1 +1,0 @@
-//Dinamik Header Burda olacaq

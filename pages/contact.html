@@ -26,145 +26,159 @@
   <body>
     <!-- <div class="layer"> -->
 
-    <main class="main">
+    <header class="header">
+      <nav class="nav container">
+        <a href="../index.html" class="nav__logo">
+          <span class="logo-text"> IT PROFESSIONALS </span>
+          <img src="../images/logo.png" alt="logo" />
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="./about.html">About us</a>
+            </li>
+            <li class="nav__item">
+              <a href="./services.html">Services</a>
+            </li>
+            <li class="nav__item"><a href="#">Contact</a></li>
+          </ul>
+          <a class="nav-btn" href="#">
+            <span class=""> Let’s Talk</span>
+            <img src="../icons/arrow.svg" alt="" />
+          </a>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <img
+            src="../icons/menu-open.svg"
+            alt="menu-open"
+            class="menu"
+            id="menuOpen"
+          />
+          <img
+            src="../icons/menu-close.svg"
+            alt="menu-close"
+            class="menu inactive"
+            id="menuClose"
+          />
+        </div>
+      </nav>
+    </header>
+
+    <main class="contact-root">
       <div class="background">
         <div class="circle circle-1"></div>
-        <div class="circle circle-2"></div>
         <div class="circle circle-3"></div>
       </div>
-      <header class="header">
-        <nav class="nav container">
-          <a href="../index.html" class="nav__logo">
-            <span class="logo-text"> IT PROFESSIONALS </span>
-            <img src="../images/logo.png" alt="logo" />
-          </a>
-
-          <div class="nav__menu" id="nav-menu">
-            <ul class="nav__list">
-              <li class="nav__item">
-                <a href="./about.html">About us</a>
-              </li>
-              <li class="nav__item">
-                <a href="./services.html">Services</a>
-              </li>
-              <li class="nav__item"><a href="#">Contact</a></li>
-            </ul>
-            <a class="nav-btn" href="#">
-              <span class=""> Let’s Talk</span>
-              <img src="icons/arrow.svg" alt="" />
-            </a>
-          </div>
-
-          <div class="nav__toggle" id="nav-toggle">
-            <img
-              src="icons/menu-open.svg"
-              alt="menu-open"
-              class="menu"
-              id="menuOpen"
-            />
-            <img
-              src="icons/menu-close.svg"
-              alt="menu-close"
-              class="menu inactive"
-              id="menuClose"
-            />
-          </div>
-        </nav>
-      </header>
       <div class="container contact-head">
-
         <div class="contact-head-text">
-            <h1>
-                Contact Us, Let's Solve <br />
-                Your Problems!
-              </h1>
-              <p>
-                We are here to quickly and effectively solve your IT needs. Get in
-                touch with our expert team now.
-              </p>
+          <h1>
+            Contact Us, Let's Solve <br />
+            Your Problems!
+          </h1>
+          <p>
+            We are here to quickly and effectively solve your IT needs. Get in
+            touch with our expert team now.
+          </p>
         </div>
         <div class="contact-image">
-            <img src="../images/contact.png" alt="about-logo" />
-          </div>
+          <img src="../images/contact.png" alt="about-logo" />
         </div>
       </div>
     </main>
-
+    <section class="contact-about container">
+      <p>
+        Have questions or need assistance with your IT challenges? We’re here to
+        help! Reach out to our team of experts for tailored solutions and prompt
+        support. Whether it’s troubleshooting, implementing new systems, or
+        upgrading your existing infrastructure, we’ve got you covered. Let’s
+        work together to make your business thrive in today’s digital world.
+      </p>
+    </section>
     <div class="contact-info container">
-        <div class="contact-info__card">
-          <div class="contact-info__details">
-            <p class="contact-info__title">Call Us Now</p>
-            <p class="contact-info__value">88888888888888</p>
-          </div>
-          <div class="contact-info__icon"><img src="../icons/contact-icon.svg" alt=""></div>
+      <div class="contact-info__card">
+        <div class="contact-info__details">
+          <p class="contact-info__title">Call Us Now</p>
+          <p class="contact-info__value">88888888888888</p>
         </div>
-        <div class="contact-info__card">
-          <div class="contact-info__details">
-            <p class="contact-info__title">Contact Us via Email</p>
-            <p class="contact-info__value">heheheh@gmail.com</p>
-          </div>
-          <div class="contact-info__icon"><img src="../icons/contact-icon.svg" alt=""></div>
+        <div class="contact-info__icon">
+          <img src="../images/contact-info.png" alt="" />
         </div>
       </div>
-      
+      <div class="contact-info__card">
+        <div class="contact-info__details">
+          <p class="contact-info__title">Contact Us via Email</p>
+          <p class="contact-info__value">heheheh@gmail.com</p>
+        </div>
+        <div class="contact-info__icon">
+          <img src="../images/contact-info.png" alt="" />
+        </div>
+      </div>
+    </div>
+
     <section class="container contact-form">
         <h2 class="contact-form__title">Send us a message</h2>
-        <p class="contact-form__subtitle">Send Us Your Message, We'll Get in Touch with You</p>
-        <form class="contact-form__body">
-          <div class="contact-form__row">
-            <div class="contact-form__group">
-              <label for="name" class="contact-form__label">Name</label>
-              <input
-                type="text"
-                id="name"
-                class="contact-form__input"
-                placeholder="Enter your name"
-              />
-            </div>
-            <div class="contact-form__group">
-              <label for="email" class="contact-form__label">E-mail</label>
-              <input
-                type="email"
-                id="email"
-                class="contact-form__input"
-                placeholder="Enter your E-mail"
-              />
-            </div>
+        <p class="contact-form__subtitle">
+          Send Us Your Message, We'll Get in Touch with You
+        </p>
+
+      <form class="contact-form__body">
+        <div class="contact-form__row">
+          <div class="contact-form__group">
+            <label for="name" class="contact-form__label">Name</label>
+            <input
+              type="text"
+              id="name"
+              class="contact-form__input"
+              placeholder="Enter your name"
+            />
           </div>
-          <div class="contact-form__row">
-            <div class="contact-form__group">
-              <label for="subject" class="contact-form__label">Subject</label>
-              <input
-                type="text"
-                id="subject"
-                class="contact-form__input"
-                placeholder="Your subject"
-              />
-            </div>
-            <div class="contact-form__group">
-              <label for="phone" class="contact-form__label">Phone</label>
-              <input
-                type="tel"
-                id="phone"
-                class="contact-form__input"
-                placeholder="Your phone number"
-              />
-            </div>
+          <div class="contact-form__group">
+            <label for="email" class="contact-form__label">E-mail</label>
+            <input
+              type="email"
+              id="email"
+              class="contact-form__input"
+              placeholder="Enter your E-mail"
+            />
           </div>
-          <div class="contact-form__group contact-form__group--full">
-            <label for="message" class="contact-form__label">Message</label>
-            <textarea
-              id="message"
-              class="contact-form__textarea"
-              placeholder="Enter your message here"
-            ></textarea>
+        </div>
+        <div class="contact-form__row">
+          <div class="contact-form__group">
+            <label for="subject" class="contact-form__label">Subject</label>
+            <input
+              type="text"
+              id="subject"
+              class="contact-form__input"
+              placeholder="Your subject"
+            />
           </div>
-          <button type="submit" class="contact-form__button">Submit
-            <img src="../icons/arrow.svg" alt="">
-          </button>
-        </form>
-      </section>
-      
+          <div class="contact-form__group">
+            <label for="phone" class="contact-form__label">Phone</label>
+            <input
+              type="tel"
+              id="phone"
+              class="contact-form__input"
+              placeholder="Your phone number"
+            />
+          </div>
+        </div>
+        <div class="contact-form__group contact-form__group--full">
+          <label for="message" class="contact-form__label">Message</label>
+          <textarea
+            id="message"
+            class="contact-form__textarea"
+            placeholder="Enter your message here"
+          ></textarea>
+        </div>
+        <button type="submit" class="contact-form__button">
+          Submit
+          <img src="../icons/arrow.svg" alt="" />
+        </button>
+      </form>
+    </section>
+
     <footer class="footer">
       <div class="background">
         <div class="circle footer-circle-1"></div>
@@ -222,5 +236,5 @@
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"
   ></script>
-  <script src="main.js"></script>
+  <script src="../main.js"></script>
 </html>

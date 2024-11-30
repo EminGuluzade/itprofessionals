@@ -207,10 +207,7 @@ a:focus,
         overflow: auto;
     }
 
-    .nav {
-        padding: 0;
-
-    }
+    
 
     .nav__list {
         gap: 24px;
@@ -247,8 +244,6 @@ a:focus,
     /* display: block; */
     opacity: 1;
 }
-
-/* Main Styles */
 /* Main Circle Animation */
 @keyframes move {
     from {
@@ -327,7 +322,7 @@ a:focus,
     height: 100%;
     overflow: hidden;
     /* //bir yada 0 oldugnu deqiqelesdir */
-    z-index: 1;
+    /* z-index: 1; */
 }
 
 .circle {
@@ -336,6 +331,11 @@ a:focus,
     background: rgba(93, 69, 253, 0.24);
     filter: blur(32px);
     animation: move 2s infinite alternate ease-in-out;
+
+
+    filter: blur(20px);
+    box-shadow: 0 0 120px 20px rgba(93, 69, 253, 0.5);
+    opacity: 0.9;
 }
 
 .circle-1 {
@@ -406,10 +406,17 @@ a:focus,
 }
 
 @media(min-width:1200px) {
-    .main {
-        padding: 40px 0;
-    }
+    .nav {
+        padding: 0;
 
+    }
+    .main {
+        padding-bottom: 40px;
+    }
+    .header {
+        /* margin-top: 2.5rem; */
+        padding-top: 40px;
+    }
     .text-box {
         width: 75.6%;
         margin: 0 auto;
