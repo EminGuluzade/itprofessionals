@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="IT Professionals agency specializing in UI/UX design, frontend, backend, and network support."
+    />
+
+    <title>IT Professionals</title>
+    <link rel="icon" href="/images/logo.png" sizes="32x32" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/faq.css" />
+    <link rel="stylesheet" href="css/about.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav container">
+        <a href="" class="nav__logo" aria-label="Homepage">
+          <span class="logo-text"> IT PROFESSIONALS </span>
+          <img loading="lazy" src="images/logo.png" alt="logo" />
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="./pages/about.html" aria-label="Learn more about us"
+                >About us</a
+              >
+            </li>
+            <li class="nav__item" aria-label="Explore our services">
+              <a href="./pages/services.html">Services</a>
+            </li>
+            <li class="nav__item">
+              <a href="./pages/contact.html" aria-label="Get in touch with us"
+                >Contact</a
+              >
+            </li>
+          </ul>
+          <a
+            class="nav-btn"
+            href="./pages/contact.html"
+            aria-label="Get in touch with us"
+          >
+            <span> Let’s Talk</span>
+            <img loading="lazy" src="icons/arrow.svg" alt="contact-icon" />
+          </a>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <img
+            loading="lazy"
+            src="icons/menu-open.svg"
+            alt="menu-open"
+            class="menu"
+            id="menuOpen"
+          />
+          <img
+            loading="lazy"
+            src="icons/menu-close.svg"
+            alt="menu-close"
+            class="menu inactive"
+            id="menuClose"
+          />
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <div class="main-wrapper container">
+        <div class="background">
+          <div class="circle circle-1"></div>
+          <div class="circle circle-2"></div>
+          <div class="circle circle-3"></div>
+        </div>
+        <section class="text-box">
+          <h1>
+            <span> WE ARE </span>
+            IT PROFESSIONALS <br />
+            AGENCY
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur. Sem viverra egestas rutrum
+            pellentesque in massa quam. Felis arcu urna massa est. Volutpat
+            egestas pellentesque pulvinar viverra in. Massa accumsan ac purus
+            nulla in eget nisl.
+          </p>
+        </section>
+        <div class="scroll-box">
+          <svg
+            class="scroll-svg"
+            xmlns="http://www.w3.org/2000/svg"
+            xml:lang="en"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 0 200 200"
+          >
+            <!-- Outer Border Circle -->
+            <circle
+              cx="100"
+              cy="100"
+              r="100"
+              fill="none"
+              stroke="#fff"
+              stroke-width="2"
+            />
+            <!-- Inner Border Circle for text spacing -->
+            <circle
+              cx="100"
+              cy="100"
+              r="70"
+              fill="none"
+              stroke="#fff"
+              stroke-width="1"
+            />
+            <defs>
+              <path
+                id="textcircle"
+                d="M100,180 a80,80 0 0,1 0,-160 a80,80 0 0,1 0,160Z"
+                transform="rotate(12,100,100)"
+              />
+            </defs>
+            <g class="textcircle">
+              <text
+                class="scroll-text"
+                fill="#fff"
+                font-size="16"
+                font-weight="400"
+              >
+                <textPath
+                  xlink:href="#textcircle"
+                  aria-label="SCROLL TO EXPLORE SCROLL TO EXPLORE"
+                  textLength="500"
+                >
+                  &nbsp; SCROLL TO EXPLORE SCROLL TO EXPLORE
+                </textPath>
+              </text>
+            </g>
+          </svg>
+          <div class="scroll-arrow">
+            <img
+              loading="lazy"
+              src="icons/scroll-arrow.svg"
+              alt="scroll-arrows"
+            />
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <section class="services">
+      <div class="background">
+        <div class="circle services-circle-1"></div>
+        <div class="circle services-circle-2"></div>
+      </div>
+      <div class="container">
+        <h2>What do we offer you?</h2>
+        <div class="cards">
+          <div class="card">
+            <div class="card-head">
+              <img
+                loading="lazy"
+                src="icons/services/ui.svg"
+                alt="ux/ui-icon"
+              />
+              <h3 class="card-title">UI/UX Design</h3>
+            </div>
+            <p class="card-info">
+              Transform your ideas into intuitive designs with a seamless user
+              experience. Our UI/UX services focus on creating visually
+              appealing and user-friendly interfaces.
+            </p>
+          </div>
+          <div class="card">
+            <div class="card-head">
+              <img loading="lazy" src="icons/services/front.svg" alt="front" />
+              <h3 class="card-title">Frontend Dev</h3>
+            </div>
+            <p class="card-info">
+              Develop modern, responsive, and dynamic web applications tailored
+              to your needs. We use cutting-edge technologies for flawless user
+              interactions.
+            </p>
+          </div>
+
+          <div class="card">
+            <div class="card-head">
+              <img
+                loading="lazy"
+                src="icons/services/backend.svg"
+                alt="backend-icon"
+              />
+              <h3 class="card-title">Backend Dev</h3>
+            </div>
+            <p class="card-info">
+              Build robust, scalable, and secure backend solutions to power your
+              applications. We specialize in APIs, databases, and server-side
+              programming.
+            </p>
+          </div>
+          <div class="card">
+            <div class="card-head">
+              <img
+                loading="lazy"
+                src="icons/services/network.svg"
+                alt="network-icon"
+              />
+              <h3 class="card-title">Network Support</h3>
+            </div>
+            <p class="card-info">
+              Ensure your business runs smoothly with our reliable network
+              setup, troubleshooting, and maintenance services.
+            </p>
+          </div>
+          <div class="card">
+            <div class="card-head">
+              <img
+                loading="lazy"
+                src="icons/services/cloud.svg"
+                alt="cloud-icon"
+              />
+              <h3 class="card-title">Cloud Support</h3>
+            </div>
+            <p class="card-info">
+              Leverage the power of the cloud with our solutions for migration,
+              deployment, and optimization across leading platforms like AWS,
+              Azure, and GCP.
+            </p>
+          </div>
+          <div class="card">
+            <div class="card-head">
+              <img
+                loading="lazy"
+                src="icons/services/helpDesk.svg"
+                alt="helpDesk-icon"
+              />
+              <h3 class="card-title">IT Help Desk</h3>
+            </div>
+            <p class="card-info">
+              Get round-the-clock IT support for troubleshooting, system
+              maintenance, and resolving technical challenges efficiently.
+            </p>
+          </div>
+          <div class="card">
+            <div class="card-head">
+              <img
+                loading="lazy"
+                src="icons/services/mobil.svg"
+                alt="mobil-icon"
+              />
+              <h3 class="card-title">Mobile Dev</h3>
+            </div>
+            <p class="card-info">
+              Create feature-rich, high-performance mobile applications tailored
+              to your business needs for both iOS and Android platforms.
+            </p>
+          </div>
+          <div class="card">
+            <div class="card-head">
+              <img
+                loading="lazy"
+                src="icons/services/zoho.svg"
+                alt="zoho-icon"
+              />
+              <h3 class="card-title">Zoho</h3>
+            </div>
+            <p class="card-info">
+              Simplify and automate your business processes with expert Zoho CRM
+              setup, customization, and integration services.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact container">
+      <h3>Contact us now and get a 15% discount</h3>
+      <div class="contact-text">
+        <p>
+          Lorem ipsum dolor sit amet consectetur. Cursus sed nunc amet in
+          sociis. In sem quisque iaculis tortor.
+        </p>
+        <a href="#">
+          Let’s Talk Us
+          <img loading="lazy" src="icons/arrow.svg" alt="contact-arrow" />
+        </a>
+      </div>
+    </section>
+
+    <div class="about">
+      <div class="container">
+        <div class="about-text">
+          <h2>What is our strength?</h2>
+          <div class="about-cards">
+            <div class="about-card">
+              <img loading="lazy" src="icons/about/teams.svg" alt="team-icon" />
+              <div class="about-card-text">
+                <h4>Experienced Team</h4>
+                <p>
+                  Our team consists of highly skilled professionals with years
+                  of experience in solving complex IT challenges, ensuring your
+                  business operates efficiently.
+                </p>
+              </div>
+            </div>
+            <div class="about-card">
+              <img loading="lazy" src="icons/about/teams.svg" alt="team-icon" />
+              <div class="about-card-text">
+                <h4>Responsive Service</h4>
+                <p>
+                  We prioritize your needs, responding promptly to challenges
+                  and delivering effective solutions to ensure uninterrupted
+                  business operations.
+                </p>
+              </div>
+            </div>
+            <div class="about-card">
+              <img loading="lazy" src="icons/about/teams.svg" alt="team-icon" />
+              <div class="about-card-text">
+                <h4>Security and Privacy</h4>
+                <p>
+                  Your data is our priority. We implement top-tier security
+                  measures to protect your sensitive information and ensure
+                  compliance with industry standards.
+                </p>
+              </div>
+            </div>
+            <div class="about-card">
+              <img loading="lazy" src="icons/about/teams.svg" alt="team-icon" />
+              <div class="about-card-text">
+                <h4>Customer Satisfaction</h4>
+                <p>
+                  Your satisfaction is at the heart of everything we do. We are
+                  committed to exceeding expectations and delivering exceptional
+                  service at every step.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="about-image">
+        <img loading="lazy" src="images/about.png" alt="about-logo" />
+      </div>
+    </div>
+
+    <section class="faq container">
+      <h2>FAQ</h2>
+      <div class="faq-container">
+        <div class="faq-item">
+          <button class="faq-question">
+            Do you offer customized IT solutions?
+            <span class="icon">
+              <img
+                loading="lazy"
+                src="./icons/faq/plus.svg"
+                alt="plus-icon"
+                class="plus-icon"
+              />
+              <img
+                loading="lazy"
+                src="./icons/faq/minus.svg"
+                alt="minus-icon"
+                class="minus-icon"
+              />
+            </span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Yes, we offer fully customized IT solutions tailored to your
+              specific needs and requirements.
+            </p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            Do you offer customized IT solutions?
+            <span class="icon">
+              <img
+                loading="lazy"
+                src="./icons/faq/plus.svg"
+                alt="plus-icon"
+                class="plus-icon"
+              />
+              <img
+                loading="lazy"
+                src="./icons/faq/minus.svg"
+                alt="minus-icon"
+                class="minus-icon"
+              />
+            </span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Yes, we offer fully customized IT solutions tailored to your
+              specific needs and requirements.
+            </p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            What is your pricing structure?
+            <span class="icon">
+              <img
+                loading="lazy"
+                src="./icons/faq/plus.svg"
+                alt="plus-icon"
+                class="plus-icon"
+              />
+              <img
+                loading="lazy"
+                src="./icons/faq/minus.svg"
+                alt="minus-icon"
+                class="minus-icon"
+              />
+            </span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Our pricing depends on the services you require. Please contact us
+              for a detailed quote.
+            </p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            Can you support remote work environments?
+            <span class="icon">
+              <img
+                loading="lazy"
+                src="./icons/faq/plus.svg"
+                alt="plus-icon"
+                class="plus-icon"
+              />
+              <img
+                loading="lazy"
+                src="./icons/faq/minus.svg"
+                alt="minus-icon"
+                class="minus-icon"
+              />
+            </span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Absolutely! We specialize in setting up and managing remote work
+              solutions.
+            </p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            Do you offer free consultations?
+            <span class="icon">
+              <img
+                loading="lazy"
+                src="./icons/faq/plus.svg"
+                alt="plus-icon"
+                class="plus-icon"
+              />
+              <img
+                loading="lazy"
+                src="./icons/faq/minus.svg"
+                alt="minus-icon"
+                class="minus-icon"
+              />
+            </span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Yes, we provide free initial consultations to understand your
+              needs and propose solutions.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="background">
+        <div class="circle footer-circle-1"></div>
+      </div>
+      <div class="footer__content container">
+        <div class="footer__brand">
+          <h1 class="footer__logo">IT PROFESSIONALS</h1>
+          <img
+            loading="lazy"
+            src="./images/logo.png"
+            alt="Logo"
+            class="footer__logo-image"
+          />
+        </div>
+        <div class="footer__info">
+          <div class="footer__contact">
+            <p class="footer__contact-item">
+              <span
+                ><img
+                  loading="lazy"
+                  src="./icons/location.svg"
+                  alt="location-icon"
+              /></span>
+              Toronto, Canada
+            </p>
+            <p class="footer__contact-item">
+              <span
+                ><img loading="lazy" src="./icons/phone.svg" alt="phone-icon"
+              /></span>
+             +1 249 989 55 32
+            </p>
+            <p class="footer__contact-item">
+              <span
+                ><img loading="lazy" src="./icons/mail.svg" alt="mail-icon"
+              /></span>
+              info@itprofessionals.ca
+            </p>
+          </div>
+          <div class="footer__about">
+            <h2 class="footer__about-title">About the company</h2>
+            <p class="footer__about-text">
+              Lorem ipsum dolor sit amet consectetur. Dictumst non quis massa
+              auctor felis semper aliquam. Non lectus dictum ipsum nunc
+              tristique etiam. Lorem ipsum dolor sit amet consectetur.
+            </p>
+          </div>
+        </div>
+        <div class="footer__links">
+          <div class="footer__links_policy">
+            <p class="footer__link">Privacy policy</p>
+            <p class="footer__link">Trust & safety</p>
+            <p class="footer__link">Terms of use</p>
+          </div>
+
+          <p class="footer__link footer__link--copyright">
+            <span id="footer-date"></span> IT Professionals
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="main.js"></script>
+</html>
